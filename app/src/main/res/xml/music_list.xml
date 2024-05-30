@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MusicList>
+    <Music>
+        <title>你笑起来真好看</title>
+        <author>李昕荣</author>
+        <like>1</like>
+        <url>music_1</url>
+    </Music>
+    <Music>
+        <title>桥边姑娘</title>
+        <author>海伦</author>
+        <like>0</like>
+        <url>music_2</url>
+    </Music>
+    <Music>
+        <title>下山</title>
+        <author>等什么君</author>
+        <like>0</like>
+        <url>music_3</url>
+    </Music>
+    <Music>
+        <title>Lemon</title>
+        <author>米津玄师</author>
+        <like>0</like>
+        <url>music_4</url>
+    </Music>
+    <Music>
+        <title>夜里无星</title>
+        <author>告五人</author>
+        <like>1</like>
+        <url>music_5</url>
+    </Music>
+    <Music>
+        <title>Sold Out</title>
+        <author>Hawk Nelson</author>
+        <like>1</like>
+        <url>music_6</url>
+    </Music>
+    <Music>
+        <title>茶酒伴</title>
+        <author>谢春花</author>
+        <like>0</like>
+        <url>music_7</url>
+    </Music>
+
+</MusicList>

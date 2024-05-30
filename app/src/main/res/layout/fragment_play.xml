@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:lrc="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mymp3.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="山外小楼听夜雨"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任然"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <com.example.mymp3.view.ScrollTextView
+            android:id="@+id/stvLyric"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            lrc:currentTextColor="@color/icon_light"
+            lrc:dividerHeight="20dp"
+            lrc:normalTextColor="@color/black"
+            lrc:rows="11"
+            lrc:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="140dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvPlayProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="6"
+                android:text="00:30" />
+
+            <SeekBar
+                android:id="@+id/sbPlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2" />
+
+            <TextView
+                android:id="@+id/tvPlayDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="4:09" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ivPrev"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/icon_prev" />
+
+        <ImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/icon_play_light" />
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_next" />
+    </LinearLayout>
+</RelativeLayout>
+
